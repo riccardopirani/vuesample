@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo"
-       src="./assets/logo.png">
+  <img alt="Vue logo" src="./assets/logo.png" />
   <UserComponent msg="Utente component" />
 </template>
 
 <script>
-import UserComponent from './components/UserComponent.vue';
+import UserComponent from "./components/UserComponent.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    UserComponent
-  }
-}
+    UserComponent,
+  },
+};
 </script>
 
 <style>
