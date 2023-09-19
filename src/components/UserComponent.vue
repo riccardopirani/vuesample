@@ -1,14 +1,14 @@
 <template>
-  <div>
+<div>
     <h1>{{ msg }}</h1>
-  </div>
+</div>
 </template>
 
 <script>
 export default {
-  name: "UserComponent",
-  props: {
-    msg: String,
-  },
+    name: "UserComponent",
+    props: {
+        msg: String,
+    },
 };
 </script>
