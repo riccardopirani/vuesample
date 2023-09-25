@@ -1,6 +1,5 @@
 <template>
 <div>
-    <h1>{{ msg }}</h1>
     <h2>ChartName: {{chartName}}</h2>
 </div>
 </template>
